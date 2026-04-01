@@ -28,5 +28,5 @@ customer-sentiment-churn/
 | CustomerID	    |  INT	    |  Foreign key linking to the Customers table.
 | TicketDate	    |  DATE	    |  Date the ticket was created.
 | SentimentScore  |	 INT	    |  Score from 1 (Very Negative) to 5 (Very Positive).
-IssueCategory	VARCHAR	e.g., 'Billing', 'Technical', 'Usability'.
+| IssueCategory	  |  VARCHAR	|  e.g., 'Billing', 'Technical', 'Usability'.
 
